@@ -1,15 +1,10 @@
 import java.util.Arrays;
 
-/**
- * Java Program to find pairs on integer array whose sum is equal to k
- * 
- * @author WINDOWS 8
- */
 public class ProblemInArray{
 
     public static void main(String args[]) {
-        int[] numbers = { 2, 4, 3, 5, 7, 8, 9 };
-        int[] numbersWithDuplicates = { 2, 4, 3, 5, 6, -2, 4, 7, 8, 9 };
+        int[] numbers = { 2, 6, 8, 9 };
+        int[] numbersWithDuplicates = { 2, 4, 3, 9 };
         prettyPrint(numbers, 7);
         prettyPrint(numbersWithDuplicates, 7);
     }
