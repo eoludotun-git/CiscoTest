@@ -5,8 +5,8 @@ public class ProblemInArray{
     public static void main(String args[]) {
         int[] numbers = { 2, 6, 8, 9 };
         int[] numbersWithDuplicates = { 2, 4, 3, 9 };
-        prettyPrint(numbers, 7);
-        prettyPrint(numbersWithDuplicates, 7);
+        prettyPrint(numbers, 4);
+        prettyPrint(numbersWithDuplicates, 4);
     }
 
     /**
