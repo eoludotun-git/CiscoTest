@@ -2,7 +2,6 @@
 
 SELECT name, address, dues, location
 FROM Members
-WHERE ID = ?
 ORDER BY ID;
 
 
